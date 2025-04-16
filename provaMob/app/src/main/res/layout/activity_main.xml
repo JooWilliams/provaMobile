@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prova 1 - Linguagem de Programação para Mobile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/questao1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1. O método onCreate é obrigatório em uma Activity"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/resposta1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Resposta 1"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/questao1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/questao2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2. Java e Kotlin são as linguagens nativas para o desenvolvimento de aplicativos Android"
+        app:layout_constraintTop_toBottomOf="@id/resposta1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/resposta2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Resposta 2"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/questao2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/questao3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="3. Um aplicativo Android pode ter apenas uma Activity"
+        app:layout_constraintTop_toBottomOf="@id/resposta2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/resposta3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Resposta 3"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/questao3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar Prova"
+        app:layout_constraintTop_toBottomOf="@id/resposta3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
