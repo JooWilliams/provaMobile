@@ -1,3 +1,5 @@
+// Alunos: José Williams da Silva Licar, Vinícius Gomes de Oliveira
+
 package br.com.example.provaMob;
 
 import android.content.Intent;
